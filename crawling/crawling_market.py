@@ -6,7 +6,7 @@ from typing import List
 from urllib.request import urlretrieve
 
 
-def crawling_kurly(keyword: str) -> List[str, str, str, str]:
+def crawling_kurly(keyword: str) -> List:
     """
     마켓컬리 크롤링 함수
     Args:
@@ -50,7 +50,7 @@ def crawling_kurly(keyword: str) -> List[str, str, str, str]:
     return item_list
 
 
-def crawling_coupang(keyword: str) -> List[str, str, str]:
+def crawling_coupang(keyword: str) -> List:
     """
     쿠팡 크롤링 함수
     Args:
@@ -81,7 +81,7 @@ def crawling_coupang(keyword: str) -> List[str, str, str]:
     return result
 
 
-def crawling_SSG(keyword: str) -> List[str, str, str]:
+def crawling_SSG(keyword: str) -> List:
     """
     SSG 크롤링 함수
     Args:

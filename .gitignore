@@ -1,3 +1,5 @@
 # Python
 .idea/*
 venv/*
+crawling/chromedriver.exe
+*.csv
